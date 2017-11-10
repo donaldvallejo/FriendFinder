@@ -155,7 +155,7 @@
             <br>
 			    </div>
 					<div class="">
-						<button type="submit" class="btn btn-primary btn-lg" id="submit"><i class="fa fa-check-square-o"></i> Submit Answers</button>
+						<button type="submit" class="btn btn-primary btn-lg btn-success" data-toggle="modal" data-target="#friendMatchModal" id="submit"><i class="fa fa-check-square-o"></i> Submit Answers</button>
 					</div>
 			</form>
       <br>
@@ -170,17 +170,7 @@
     </div>
   </footer>
 <script type="text/javascript">
-$('#submit').on('click', function() {
-	$('friendMatchModal').modal('show');
-	console.log("clicked");
-})
-
-console.log("js");
-$(".close").click(function() {
-	console.log("close");
-    $('friendMatchModal').modal('hide');
-});
-
+	$('#friendMatchModal').modal('hide');
 
 	$('#name').val("donny");
 	$('#profilePic').val("somepicture.png");
