@@ -11,4 +11,6 @@ var userArray = [
 	}
 ];
 
-module.exports = userArray;
+module.exports = {
+	'friends': userArray
+};
