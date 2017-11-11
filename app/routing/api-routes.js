@@ -9,8 +9,8 @@ module.exports = function(app) {
 
   app.post('/api/friends', function(app) {
     var totalDiff = [];
-    var user1 = req.body;
-    var user2 = req.body;
+    var user1 = req.body;//??
+    var user2 = req.body;//??
   // for loop for finding all indexes in score array
     for (var i = 0; i < data.friends.length; i++) {
       totalDiff = user1 - user2;
